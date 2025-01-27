@@ -2,6 +2,16 @@
   --bg-color: #135d66;
   --border-color: #003c43;
 }
+/* scrollBar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background:  white;
+}
+::-webkit-scrollbar-thumb{
+    background:  #007bff;
+}
 * {
   margin: 0;
   padding: 0;
